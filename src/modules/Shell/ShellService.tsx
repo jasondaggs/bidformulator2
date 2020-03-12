@@ -11,9 +11,13 @@ class ShellService {
           }, {
             headerName: "Date", field: "model",width: 75,pinned: "left"
           }, {
+            headerName: "Strategy", field: "model",width: 75,pinned: "left"
+          }, {
             headerName: "HE", field: "price",width: 75,pinned: "left"
           }, {
-            headerName: "Status", field:"status", wdith: 25,pinned: "left"
+            headerName: "Bid Status", field:"status", wdith: 10,pinned: "left"
+          }, {
+            headerName: "ISO Status", field:"status", wdith: 10,pinned: "left"
           }, {
             headerName: "BP1(MW)", field:"BP1MW"
           }, {
