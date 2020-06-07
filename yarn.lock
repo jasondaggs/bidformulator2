@@ -931,10 +931,45 @@
     resize-observer-polyfill "^1.5.1"
     tslib "~1.10.0"
 
+"@blueprintjs/core@^3.28.1":
+  version "3.28.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/core/-/core-3.28.1.tgz#cb4056c9637b09d8b8c46bd4efe7363cdb796b8d"
+  integrity sha512-Ws4+FrtHh5U4TMaqhFW1PXajJobn2By72LOxu18q8ksY4CuyUzvo8xIOooViQdA7ZLx9pwhC6dytsYdykwRy0w==
+  dependencies:
+    "@blueprintjs/icons" "^3.18.0"
+    "@types/dom4" "^2.0.1"
+    classnames "^2.2"
+    dom4 "^2.1.5"
+    normalize.css "^8.0.1"
+    popper.js "^1.15.0"
+    react-lifecycles-compat "^3.0.4"
+    react-popper "^1.3.7"
+    react-transition-group "^2.9.0"
+    resize-observer-polyfill "^1.5.1"
+    tslib "~1.10.0"
+
+"@blueprintjs/datetime@^3.15.2":
+  version "3.18.1"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/datetime/-/datetime-3.18.1.tgz#878022e0e98f46b26fb9e5f9effff95ab44ded3e"
+  integrity sha512-WJ1kadNHT96YQFfv8NP58VHAXmML+8O/zOSUn5/3dgbl02QV8+K/4eDK9MYkvALl9FmrDyb63z5bJZOHaf1O/Q==
+  dependencies:
+    "@blueprintjs/core" "^3.28.1"
+    classnames "^2.2"
+    react-day-picker "7.3.2"
+    tslib "~1.10.0"
+
 "@blueprintjs/icons@^3.14.0":
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.14.0.tgz#9f9a51b116907d103e4e2e9b78d53d4ac6f107fd"
   integrity sha512-cvQ3CSdy0DqVqcXcPqSxoycJw497TVP5goyE6xCFlVs84477ahxh7Uung6J+CCoDVBuI87h576LtuyjwSxorvQ==
+  dependencies:
+    classnames "^2.2"
+    tslib "~1.10.0"
+
+"@blueprintjs/icons@^3.18.0":
+  version "3.18.0"
+  resolved "https://registry.yarnpkg.com/@blueprintjs/icons/-/icons-3.18.0.tgz#acf7a6915baeb0558d1bec323c0083dbae48ae51"
+  integrity sha512-emvW6AHWcilE3QoYnTs0eCkAZvpn13liTLnfajMfMVPB2/KKeYDa+TVbEqhVXWhrPanXkvJlZCVcizQvFeEYxw==
   dependencies:
     classnames "^2.2"
     tslib "~1.10.0"
@@ -8972,6 +9007,13 @@ react-app-polyfill@^1.0.6:
     regenerator-runtime "^0.13.3"
     whatwg-fetch "^3.0.0"
 
+react-day-picker@7.3.2:
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/react-day-picker/-/react-day-picker-7.3.2.tgz#b9b9b0000ba53b2c9df9bccb79664862aba6b60a"
+  integrity sha512-mij2j2Un/v2V2ow+hf/hFBMdl6Eis/C/YhBtlI6Xpbvh3Q6WMix78zEkCdw6i9GldafOrpnupWKofv/h5oSI4g==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-dev-utils@^10.2.0:
   version "10.2.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-10.2.0.tgz#b11cc48aa2be2502fb3c27a50d1dfa95cfa9dfe0"
@@ -11222,9 +11264,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
